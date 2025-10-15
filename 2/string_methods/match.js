@@ -1,8 +1,9 @@
 // match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
-let string = 'love'
-let patternOne = /love/ // with out any flag
-let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
-string.match(substring)
+// 它接受子字符串或正则表达式模式作为参数，如果存在匹配项，则返回一个数组；如果没有匹配项，则返回 null。让我们看看正则表达式模式是什么样的。它以 / 符号开头，以 / 符号结尾。
+// let string = 'love'
+// let patternOne = /love/ // with out any flag
+// let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
+// string.match(substring)
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.match('love')) //
 /*

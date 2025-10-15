@@ -1,4 +1,5 @@
 // toLowerCase(): this method changes the string to lowercase letters.
+// toLowerCase()：此方法将字符串转换为小写字母。
 let string = 'JavasCript'
 console.log(string.toLowerCase())     // javascript
 let firstName = 'Asabeneh'
